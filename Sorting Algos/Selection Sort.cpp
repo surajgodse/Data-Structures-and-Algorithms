@@ -23,8 +23,8 @@ void printArray(int arr[], int n){
 
 
 int main(){
-    int n = 5;
-    int arr[] = { 4,1,5,2,3};
+    int n = 6;
+    int arr[] = {4,1,5,2,3,4};
 
     selectionSort(arr, n);
     printArray(arr, n);
